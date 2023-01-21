@@ -1,4 +1,4 @@
-# proxy-ping
+# mtptoto proxy ping
 
 A PowerShell script that pings a list of proxy hosts and returns the available ones. The script uses the Invoke-RestMethod cmdlet to retrieve a list of proxy hosts from a specified URL and then uses the ForEach-Object -Parallel -ThrottleLimit 10 cmdlet to ping the hosts concurrently. The available hosts are then stored in a list and copied to the clipboard. The script is useful for those who need to check the availability of multiple proxy hosts quickly.
 
